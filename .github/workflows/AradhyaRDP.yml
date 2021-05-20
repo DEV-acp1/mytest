@@ -12,7 +12,7 @@ jobs:
     - name: Mendownload Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://github.com/heyacp/mytest/blob/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/heyacp/mytest/main/start.bat?token=AUDNGXSH2ZVU5G3K5I4TBE3AUXWKOt -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/AdityaGans2542/AdityaRDP/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/AdityaGans2542/AdityaRDP/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/AdityaGans2542/AdityaRDP/main/loop.bat -OutFile loop.bat
